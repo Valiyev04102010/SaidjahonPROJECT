@@ -27,7 +27,7 @@ def guess_the_number():
             print("Too high! Try a lower number.")
         else:
             print(f"Congratulations! You guessed the number {secret_number} correctly in {attempts+1} attempts.")
-        break
+            break
     attempts += 1
 
     if attempts == max_attempts:
